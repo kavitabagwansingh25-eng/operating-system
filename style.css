@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(wallpeper.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(181, 176, 158, 0.287);
+    padding: 10px;
+}
+
+.image img {
+    width: 25px;
+    height: auto;
+}
+
+nav p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.left {
+    width: 25px;
+}
+
+.apps {
+    position: fixed;
+    top: 70px;         /* uper se duri*/
+    left: 20px;        /* banye taraf se duri */
+    display: flex;     /* columns ko side by side */
+    gap: 40px;         /* dono column me gap */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.app {
+    text-align: center;
+}
+
+.app img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.app p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
